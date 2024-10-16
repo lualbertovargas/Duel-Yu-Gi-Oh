@@ -1,16 +1,64 @@
-# duel_yu_gi_oh
+# Proyecto Flutter "Duel Yu-Gi-Oh!"
 
-A new Flutter project.
+## Descripción
+Este proyecto es una aplicación móvil desarrollada con Flutter que permite a los usuarios explorar y buscar cartas del popular juego de cartas Yu-Gi-Oh!. La aplicación consume datos de una API de Yu-Gi-Oh! y utiliza el patrón BLoC para la gestión del estado, ofreciendo una experiencia de usuario fluida y eficiente.
 
-## Getting Started
+## Requisitos
+- Flutter 3.24.3
+- Dart 3.5.3
+- DevTools 2.37.3
+- Dispositivo móvil con S.O. (Android/iOS)
 
-This project is a starting point for a Flutter application.
+## Instalación
+1. Clona este repositorio en tu máquina local.
+    ```bash
+    git clone https://github.com/tu-usuario/duel-yu-gi-oh.git
+    ```
+2. Accede al directorio del proyecto.
+    ```bash
+    cd duel-yu-gi-oh
+    ```
+3. Instala las dependencias.
+    ```bash
+    flutter pub get
+    ```
+4. Ejecuta el proyecto en tu dispositivo o en un emulador.
+    ```bash
+    flutter run
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+## Uso
+Una vez que la aplicación esté en ejecución, podrás:
+- Explorar una lista de cartas de Yu-Gi-Oh!
+- Buscar cartas por arquetipo
+- Ver detalles de las cartas seleccionadas
+- Disfrutar de una interfaz de usuario intuitiva y atractiva
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Estructura del proyecto
+El proyecto sigue una arquitectura limpia:
+- `lib/`
+  - `app.dart`: Configuración principal de la aplicación
+  - `main.dart`: Punto de entrada de la aplicación
+  - `colors/`: Definiciones de colores
+  - `core/`: Utilidades y configuraciones centrales
+  - `data/`: Implementaciones de repositorios y fuentes de datos
+  - `domain/`: Entidades, casos de uso y definiciones de repositorios
+  - `presentation/`: Widgets, páginas y lógica de presentación (BLoC)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Pruebas
+Para ejecutar las pruebas unitarias y de widgets, utiliza el siguiente comando:
+```bash
+flutter test
+```
+
+## Dependencias principales
+- `equatable`: Para comparaciones de objetos simplificadas
+- `http`: Para realizar solicitudes HTTP
+- `bloc` y `flutter_bloc`: Para la gestión del estado
+- `mockito`: Para crear mocks en las pruebas
+
+## Contribución
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, no dudes en abrir un PR.
+
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.

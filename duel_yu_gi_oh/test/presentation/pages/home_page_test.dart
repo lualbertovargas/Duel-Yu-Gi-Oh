@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mockito/mockito.dart';
 import 'package:mockito/annotations.dart';
-import 'package:duel_yu_gi_oh/presentation/pages/home_page.dart';
+import 'package:duel_yu_gi_oh/presentation/pages/home.page.dart';
 import 'package:duel_yu_gi_oh/presentation/bloc/card_bloc.dart';
 import 'package:duel_yu_gi_oh/presentation/bloc/card_state.dart';
 import 'package:duel_yu_gi_oh/presentation/bloc/card_event.dart';

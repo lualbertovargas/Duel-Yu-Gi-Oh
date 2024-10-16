@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:duel_yu_gi_oh/presentation/pages/card_detail_page.dart';
+import 'package:duel_yu_gi_oh/presentation/pages/card_detail.page.dart';
 import 'package:duel_yu_gi_oh/domain/entities/card.dart' as yugioh;
 import 'package:network_image_mock/network_image_mock.dart';
 
