@@ -1,5 +1,9 @@
 import 'package:equatable/equatable.dart';
 
+///Card model according to the characteristics of the YGOProDeck API
+///The relevant parameter is the [isBanned]
+///
+
 class Card extends Equatable {
   final int id;
   final String name;

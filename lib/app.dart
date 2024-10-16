@@ -7,6 +7,9 @@ import 'data/repositories/card_repository_impl.dart';
 import 'domain/usecases/get_cards_by_archetype.dart';
 import 'colors/colors.dart';
 
+///Theme Settings
+///
+
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
 
@@ -26,11 +29,9 @@ class App extends StatelessWidget {
             seedColor: YuGiOhColors.primary,
             primary: YuGiOhColors.primary,
             secondary: YuGiOhColors.background,
-            background: YuGiOhColors.background,
             surface: YuGiOhColors.cardBack,
             onPrimary: YuGiOhColors.text,
             onSecondary: YuGiOhColors.background,
-            onBackground: YuGiOhColors.text,
             onSurface: YuGiOhColors.textSecondary,
           ),
           useMaterial3: true,
