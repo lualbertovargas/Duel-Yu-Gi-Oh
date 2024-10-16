@@ -1,64 +1,64 @@
-# Proyecto Flutter "Duel Yu-Gi-Oh!"
+# Flutter Project "Duel Yu-Gi-Oh!"
 
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://i.imgur.com/WLEQoDZ.jpeg" alt="Captura de pantalla de la aplicación Duel Yu-Gi-Oh! en un iPhone" width="200" style="margin: 0 10px;"/>
-  <img src="https://i.imgur.com/xwLCVCK.jpeg" alt="Captura de pantalla adicional de la aplicación Duel Yu-Gi-Oh!" width="200" style="margin: 0 10px;"/>
-  <img src="https://i.imgur.com/d5bmD85.jpeg" alt="Otra captura de pantalla de la aplicación Duel Yu-Gi-Oh!" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/4hkXUm9.jpeg" alt="Screenshot of the Duel Yu-Gi-Oh! application on an iPhone" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/xwLCVCK.jpeg" alt="Additional screenshot of the Duel Yu-Gi-Oh! application" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/l7KYWiJ.jpeg" alt="Another screenshot of the Duel Yu-Gi-Oh! application" width="200" style="margin: 0 10px;"/>
 </p>
 
-## Descripción
-Este proyecto es una aplicación móvil desarrollada con Flutter que permite a los usuarios explorar y buscar cartas del popular juego de cartas Yu-Gi-Oh!. La aplicación consume datos de una API de Yu-Gi-Oh! y utiliza el patrón BLoC para la gestión del estado, ofreciendo una experiencia de usuario fluida y eficiente.
+## Description
+This project is a mobile application developed with Flutter that allows users to explore and search for cards from the popular Yu-Gi-Oh! card game. The application consumes data from a Yu-Gi-Oh! API and uses the BLoC pattern for state management, offering a smooth and efficient user experience.
 
-## Requisitos
+## Requirements
 - Flutter 3.24.3
 - Dart 3.5.3
 - DevTools 2.37.3
-- Dispositivo móvil con S.O. (Android/iOS)
+- Mobile device with OS (Android/iOS)
 
-## Instalación
-1. Clona este repositorio en tu máquina local.
+## Installation
+1. Clone this repository on your local machine.
     ```bash
-    git clone https://github.com/tu-usuario/duel-yu-gi-oh.git
+    git clone https://github.com/your-username/duel-yu-gi-oh.git
     ```
-2. Accede al directorio del proyecto.
+2. Navigate to the project directory.
     ```bash
     cd duel-yu-gi-oh
     ```
-3. Instala las dependencias.
+3. Install the dependencies.
     ```bash
     flutter pub get
     ```
-4. Ejecuta el proyecto en tu dispositivo o en un emulador.
+4. Run the project on your device or emulator.
     ```bash
     flutter run
     ```
 
-## Uso
-Una vez que la aplicación esté en ejecución, podrás:
-- Explorar una lista de cartas de Yu-Gi-Oh!
-- Buscar cartas por arquetipo
-- Ver detalles de las cartas seleccionadas
-- Disfrutar de una interfaz de usuario intuitiva y atractiva
+## Usage
+Once the application is running, you will be able to:
+- Explore a list of Yu-Gi-Oh! cards
+- Search for cards by archetype
+- View details of selected cards
+- Enjoy an intuitive and attractive user interface
 
-## Estructura del proyecto
-El proyecto sigue una arquitectura limpia:
+## Project Structure
+The project follows a clean architecture:
 - `lib/`
-  - `app.dart`: Configuración principal de la aplicación
-  - `main.dart`: Punto de entrada de la aplicación
-  - `colors/`: Definiciones de colores
-  - `core/`: Utilidades y configuraciones centrales
-  - `data/`: Implementaciones de repositorios y fuentes de datos
-  - `domain/`: Entidades, casos de uso y definiciones de repositorios
-  - `presentation/`: Widgets, páginas y lógica de presentación (BLoC)
+  - `app.dart`: Main application configuration
+  - `main.dart`: Application entry point
+  - `colors/`: Color definitions
+  - `core/`: Core utilities and configurations
+  - `data/`: Repository implementations and data sources
+  - `domain/`: Entities, use cases, and repository definitions
+  - `presentation/`: Widgets, pages, and presentation logic (BLoC)
 
-## Dependencias principales
-- `equatable`: Para comparaciones de objetos simplificadas
-- `http`: Para realizar solicitudes HTTP
-- `bloc`: Para la gestión del estado
-- `mockito`: Para crear mocks en las pruebas
+## Main Dependencies
+- `equatable`: For simplified object comparisons
+- `http`: For making HTTP requests
+- `bloc`: For state management
+- `mockito`: For creating mocks in tests
 
-## Contribución
-¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, no dudes en abrir un PR.
+## Contribution
+Contributions are welcome! If you want to improve this project, don't hesitate to open a PR.
 
-## Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+## License
+This project is under the MIT license. See the `LICENSE` file for more details.
