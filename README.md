@@ -1,9 +1,9 @@
 # Flutter Project "Duel Yu-Gi-Oh!"
 
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://i.imgur.com/4hkXUm9.jpeg" alt="Screenshot of the Duel Yu-Gi-Oh! application on an iPhone" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/uEVpFNe.jpeg" alt="Screenshot of the Duel Yu-Gi-Oh! application on an iPhone" width="200" style="margin: 0 10px;"/>
   <img src="https://i.imgur.com/xwLCVCK.jpeg" alt="Additional screenshot of the Duel Yu-Gi-Oh! application" width="200" style="margin: 0 10px;"/>
-  <img src="https://i.imgur.com/l7KYWiJ.jpeg" alt="Another screenshot of the Duel Yu-Gi-Oh! application" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/d5bmD85.jpeg" alt="Another screenshot of the Duel Yu-Gi-Oh! application" width="200" style="margin: 0 10px;"/>
 </p>
 
 ## Description
