@@ -45,16 +45,10 @@ El proyecto sigue una arquitectura limpia:
   - `domain/`: Entidades, casos de uso y definiciones de repositorios
   - `presentation/`: Widgets, páginas y lógica de presentación (BLoC)
 
-## Pruebas
-Para ejecutar las pruebas unitarias y de widgets, utiliza el siguiente comando:
-```bash
-flutter test
-```
-
 ## Dependencias principales
 - `equatable`: Para comparaciones de objetos simplificadas
 - `http`: Para realizar solicitudes HTTP
-- `bloc` y `flutter_bloc`: Para la gestión del estado
+- `bloc`: Para la gestión del estado
 - `mockito`: Para crear mocks en las pruebas
 
 ## Contribución
