@@ -36,7 +36,7 @@ class App extends StatelessWidget {
           useMaterial3: true,
           visualDensity: VisualDensity.adaptivePlatformDensity,
           scaffoldBackgroundColor: YuGiOhColors.background,
-          appBarTheme: AppBarTheme(
+          appBarTheme: const AppBarTheme(
             backgroundColor: YuGiOhColors.primary,
             foregroundColor: YuGiOhColors.text,
             elevation: 0,
@@ -56,10 +56,10 @@ class App extends StatelessWidget {
             elevation: 0,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),
-              side: BorderSide(color: YuGiOhColors.secondary, width: 2),
+              side: const BorderSide(color: YuGiOhColors.secondary, width: 2),
             ),
           ),
-          textTheme: TextTheme(
+          textTheme: const TextTheme(
             displayLarge: TextStyle(
                 color: YuGiOhColors.text, fontWeight: FontWeight.bold),
             displayMedium: TextStyle(

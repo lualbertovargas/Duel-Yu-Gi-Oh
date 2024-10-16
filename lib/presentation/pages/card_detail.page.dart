@@ -33,7 +33,7 @@ class CardDetailPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   _buildInfoCard(context),
-                  SizedBox(height: 16),
+                  const SizedBox(height: 16),
                   _buildDescriptionCard(context),
                 ],
               ),
@@ -57,11 +57,14 @@ class CardDetailPage extends StatelessWidget {
             Divider(),
             _buildInfoRow('Tipo', card.type),
             _buildInfoRow('Raza', card.race),
-            if (card.attribute != null) _buildInfoRow('Atributo', card.attribute!),
-            if (card.level != null) _buildInfoRow('Nivel/Rango', card.level.toString()),
+            if (card.attribute != null)
+              _buildInfoRow('Atributo', card.attribute!),
+            if (card.level != null)
+              _buildInfoRow('Nivel/Rango', card.level.toString()),
             if (card.atk != null) _buildInfoRow('ATK', card.atk.toString()),
             if (card.def != null) _buildInfoRow('DEF', card.def.toString()),
-            if (card.archetype != null) _buildInfoRow('Arquetipo', card.archetype!),
+            if (card.archetype != null)
+              _buildInfoRow('Arquetipo', card.archetype!),
           ],
         ),
       ),

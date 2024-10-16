@@ -1,0 +1,1 @@
+ /Users/lualbertovargas/luisdev/duel_yi_gu_oh/Untitled/Duel-Yu-Gi-Oh/.dart_tool/flutter_build/f4b36a4ba78f7e3ba77541e524750873/native_assets.yaml: 
