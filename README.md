@@ -1,6 +1,10 @@
 # Proyecto Flutter "Duel Yu-Gi-Oh!"
 
-<img src="https://i.imgur.com/4hkXUm9.jpeg" alt="Captura de pantalla de la aplicación Duel Yu-Gi-Oh! en un iPhone" width="390"/>
+<p align="center">
+  <img src="https://i.imgur.com/4hkXUm9.jpeg" alt="Captura de pantalla de la aplicación Duel Yu-Gi-Oh! en un iPhone" width="200" style="display: block; margin: auto;"/>
+  <img src="blob:https://imgur.com/220ab992-1b27-4830-a19f-0658a93267be" alt="Captura de pantalla adicional de la aplicación Duel Yu-Gi-Oh!" width="200" style="display: block; margin: auto;"/>
+  <img src="https://i.imgur.com/l7KYWiJ.jpeg" alt="Otra captura de pantalla de la aplicación Duel Yu-Gi-Oh!" width="200" style="display: block; margin: auto;"/>
+</p>
 
 ## Descripción
 Este proyecto es una aplicación móvil desarrollada con Flutter que permite a los usuarios explorar y buscar cartas del popular juego de cartas Yu-Gi-Oh!. La aplicación consume datos de una API de Yu-Gi-Oh! y utiliza el patrón BLoC para la gestión del estado, ofreciendo una experiencia de usuario fluida y eficiente.

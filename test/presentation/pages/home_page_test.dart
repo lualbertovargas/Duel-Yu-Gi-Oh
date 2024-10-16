@@ -6,7 +6,6 @@ import 'package:mockito/annotations.dart';
 import 'package:duel_yu_gi_oh/presentation/pages/home.page.dart';
 import 'package:duel_yu_gi_oh/presentation/bloc/card_bloc.dart';
 import 'package:duel_yu_gi_oh/presentation/bloc/card_state.dart';
-import 'package:duel_yu_gi_oh/presentation/bloc/card_event.dart';
 import 'package:duel_yu_gi_oh/domain/entities/card.dart' as yugioh;
 
 import 'home_page_test.mocks.dart';
@@ -20,7 +19,8 @@ void main() {
     when(mockCardBloc.stream).thenAnswer((_) => Stream.value(CardInitial()));
   });
 
-  testWidgets('HomePage displays initial state correctly', (WidgetTester tester) async {
+  testWidgets('HomePage displays initial state correctly',
+      (WidgetTester tester) async {
     when(mockCardBloc.state).thenReturn(CardInitial());
 
     await tester.pumpWidget(
@@ -39,7 +39,8 @@ void main() {
     expect(find.text('Six Samurai'), findsOneWidget);
   });
 
-  testWidgets('HomePage displays loading state correctly', (WidgetTester tester) async {
+  testWidgets('HomePage displays loading state correctly',
+      (WidgetTester tester) async {
     when(mockCardBloc.state).thenReturn(CardLoading());
     when(mockCardBloc.stream).thenAnswer((_) => Stream.value(CardLoading()));
 
@@ -55,7 +56,8 @@ void main() {
     expect(find.byType(CircularProgressIndicator), findsOneWidget);
   });
 
-  testWidgets('HomePage displays loaded state correctly', (WidgetTester tester) async {
+  testWidgets('HomePage displays loaded state correctly',
+      (WidgetTester tester) async {
     final cards = [
       yugioh.Card(
         id: 1,
@@ -74,7 +76,8 @@ void main() {
     ];
 
     when(mockCardBloc.state).thenReturn(CardLoaded(cards));
-    when(mockCardBloc.stream).thenAnswer((_) => Stream.value(CardLoaded(cards)));
+    when(mockCardBloc.stream)
+        .thenAnswer((_) => Stream.value(CardLoaded(cards)));
 
     await tester.pumpWidget(
       MaterialApp(

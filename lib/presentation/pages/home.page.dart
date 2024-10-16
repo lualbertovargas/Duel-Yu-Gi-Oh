@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
         children: [
           Center(
             child: Text(
-              'Selecciona un arquetipo:',
+              'Select an archetype:',
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: Colors.white,
                   ),
@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
           if (state is CardInitial) {
             return Center(
               child: Text(
-                'Selecciona un arquetipo para comenzar',
+                'Select an archetype to begin',
                 style: Theme.of(context).textTheme.titleMedium,
                 textAlign: TextAlign.center,
               ),
@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
           } else if (state is CardError) {
             return Center(
               child: Text(
-                'Error: ${state.message}',
+                'Warning: ${state.message}',
                 style: const TextStyle(color: Colors.red),
               ),
             );
