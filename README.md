@@ -1,9 +1,9 @@
 # Proyecto Flutter "Duel Yu-Gi-Oh!"
 
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://i.imgur.com/4hkXUm9.jpeg" alt="Captura de pantalla de la aplicación Duel Yu-Gi-Oh! en un iPhone" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/WLEQoDZ.jpeg" alt="Captura de pantalla de la aplicación Duel Yu-Gi-Oh! en un iPhone" width="200" style="margin: 0 10px;"/>
   <img src="https://i.imgur.com/xwLCVCK.jpeg" alt="Captura de pantalla adicional de la aplicación Duel Yu-Gi-Oh!" width="200" style="margin: 0 10px;"/>
-  <img src="https://i.imgur.com/l7KYWiJ.jpeg" alt="Otra captura de pantalla de la aplicación Duel Yu-Gi-Oh!" width="200" style="margin: 0 10px;"/>
+  <img src="https://i.imgur.com/d5bmD85.jpeg" alt="Otra captura de pantalla de la aplicación Duel Yu-Gi-Oh!" width="200" style="margin: 0 10px;"/>
 </p>
 
 ## Descripción
